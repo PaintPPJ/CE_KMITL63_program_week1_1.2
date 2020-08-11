@@ -6,10 +6,9 @@ int main()
 	{
 		if (a % 3 == 0 || a % 5 == 0 && a % 15 != 0 && a != 0)
 		{
-			printf("%d\n", a);
 			sum += a;
 		}
 	}
-	printf("%d", sum);
+	printf("sum = %d", sum);
 	return 0;
 }
